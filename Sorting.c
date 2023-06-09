@@ -1,35 +1,37 @@
 #include <stdio.h>
-
+// To arrange number in accending
 int main()
 {
-    int a[5], i, j, temp;
-    printf("Enter the five numbers:\n");
-    for (i = 0; i < 5; i++)
+    int i, j, n, temp;
+    printf("Enter the size of Array:\n");
+    scanf("%d", &n);
+    int a[n];
+    printf("Enter the numbers :\n");
+    for (i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
     }
-    printf("The entered numbers are:");
-    for (i = 0; i < 5; i++)
+    printf("The Entered numbers are ");
+    for (i = 0; i < n; i++)
     {
-        printf(" %d  ", a[i]);
+        printf("%d\t", a[i]);
     }
-
-    printf("\nSorted array is :\n");
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
-        for (j = i + 1; j < 5; j++)
+        for (j = i + 1; j < n; j++)
         {
             if (a[i] > a[j])
             {
-                temp = a[j];
-                a[j] = a[i];
-                a[i] = temp;
+                temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
             }
         }
     }
-    for (i = 0; i < 5; i++)
+    printf("The sorted array is\n");
+    for (i = 0; i < n; i++)
     {
-        printf(" %d  ", a[i]);
+        printf("%d\t", a[i]);
     }
     return 0;
 }
