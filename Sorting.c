@@ -42,6 +42,7 @@ int main()
             printf("%d\t", a[i]);
         }
         break;
+
     case 2:
         printf("Enter the numbers :\n");
         for (i = 0; i < n; i++)
@@ -70,6 +71,7 @@ int main()
         {
             printf("%d\t", a[i]);
         }
+
         break;
     default:
         printf("Invalid input");
