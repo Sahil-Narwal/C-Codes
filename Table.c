@@ -11,6 +11,5 @@ int main()
       printf("\n%d", i);
       i = i + a;
    }
-
    return 0;
 }
