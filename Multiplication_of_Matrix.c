@@ -6,7 +6,7 @@ int main()
     scanf("%d%d", &nor1, &noc1);
     printf("Enter the number of rows and columns for the second matrix\n");
     scanf("%d%d", &nor2, &noc2);
-    
+
     if (noc1 != nor2)
     {
         printf("Error: The number of columns in the first matrix must be equal to the number of rows in the second matrix\n");
