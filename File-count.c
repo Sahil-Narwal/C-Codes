@@ -10,7 +10,7 @@ int main()
     fp = fopen("data.txt", "r");
     if (fp == NULL)
     {
-        printf("\nUnable to open file");
+        printf("Unable to open file");
         exit(0);
     }
 
