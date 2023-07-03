@@ -36,7 +36,7 @@ int main()
                 }
             }
         }
-        printf("The sorted array is\n");
+        printf("\nThe sorted array is\n");
         for (i = 0; i < n; i++)
         {
             printf("%d\t", a[i]);
@@ -66,7 +66,7 @@ int main()
                 }
             }
         }
-        printf("The sorted array is\n");
+        printf("\nThe sorted array is\n");
         for (i = 0; i < n; i++)
         {
             printf("%d\t", a[i]);
